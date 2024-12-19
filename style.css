@@ -1,0 +1,112 @@
+@font-face {
+  font-family: typewriter;
+  src: url("/FONTS/PUNKBABE\ TRIAL.ttf");
+}
+
+body {
+  background-image: url("/IMAGES/ICHI_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcome {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+
+#play
+{
+  position: fixed;
+  font-size: 50px;
+  right: 10px;
+  color: rgba(65, 25, 25, 0.7);
+  bottom: -50px;
+  user-select: none;
+  overflow: visible;
+}
+
+#nowplaying
+{
+  color: blanchedalmond;
+  font-weight: bold;
+  font-size: small;
+  position: relative;
+  bottom: 14px;
+  right: 5px;
+  letter-spacing: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: #ffffff 10px;
+  text-shadow: -2px -2px 0 rgb(65, 25, 25), 2px -2px 0 rgb(65, 25, 25), -2px 2px 0 rgb(65, 25, 25), 3px 3px 0 rgb(65, 25, 25);
+}
+
+.button:hover
+{
+  cursor: pointer;
+}
+
+#pausebutton
+{
+  position: relative;
+  bottom: 4px;
+}
+#skip
+{
+  position: relative;
+  bottom: 4px;
+}
+
+#COPYRIGHT {
+  position: fixed;
+  bottom:0px;
+  margin-left: 55px;
+  margin-bottom: 5px;
+  color: blanchedalmond;
+  font-weight: bold;
+  vertical-align: text-bottom;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: -1px -1px 0 rgb(65, 25, 25), 1px -1px 0 rgb(65, 25, 25), -1px 1px 0 rgb(65, 25, 25), 1px 1px 0 rgb(65, 25, 25);
+}
+
+.nav {
+  background-color: rgba(65, 25, 25, 0.7);
+  border-radius: 25px;
+  
+}
+#nav1 {
+  margin-top: 30px;
+  margin-left: 45px;
+  width: 25%;
+
+}
+#nav2 {
+  margin-top: 30px;
+  margin-left: 74%;
+  width: 25%;
+
+}
+ul {
+  list-style-type: none;
+
+}
+li {
+  font-family: typewriter;
+  font-size: 100px;
+  color: black;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  overflow-x: hidden;
+}
+li:hover {
+  font-family: "Comic Sans MS";
+  font-size: 80px;
+  cursor: grab;
+  text-decoration: none;
+}
+a{
+  color:black;
+}
+a:hover{
+  text-decoration: none;
+}
