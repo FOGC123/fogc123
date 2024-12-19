@@ -1,10 +1,10 @@
 @font-face {
   font-family: typewriter;
-  src: url("/FONTS/PUNKBABE\ TRIAL.ttf");
+  src: url("FONTS/PUNKBABE\ TRIAL.ttf");
 }
 
 body {
-  background-image: url("/IMAGES/ICHI_01.jpg");
+  background-image: url("IMAGES/ICHI_01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

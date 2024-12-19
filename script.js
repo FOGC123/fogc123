@@ -14,7 +14,7 @@ class Song
     constructor(filename)
     {
         this.filename = filename;
-        let path = "/MUSIC/" + filename;
+        let path = "MUSIC/" + filename;
         this.#player = new Audio(path);
         this.#player.addEventListener("ended", (e) => {
             document.dispatchEvent(songOver);
